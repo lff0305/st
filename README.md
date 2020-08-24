@@ -36,4 +36,4 @@ Interfaces:
 
 `IMakeJoke`: Make jokes
 
-!(https://github.com/lff0305/st/blob/master/docs/Animal.png)
+![](https://github.com/lff0305/st/blob/master/docs/Animal.png)
