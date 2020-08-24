@@ -2,6 +2,7 @@ package org.lff.animals;
 
 import org.lff.ability.IFly;
 import org.lff.ability.ISing;
+import org.lff.animals.base.BaseBird;
 import org.lff.animals.base.LandAnimal;
 
 /**
@@ -9,7 +10,7 @@ import org.lff.animals.base.LandAnimal;
  * @author Liu Feifei
  * @date 2020/8/24 10:13
  **/
-public class Bird extends LandAnimal implements ISing, IFly {
+public class Bird extends BaseBird implements ISing, IFly {
 
     public void fly() {
         System.out.println("A Bird flies");

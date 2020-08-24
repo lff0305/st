@@ -5,6 +5,7 @@ import org.lff.ability.IEatFish;
 import org.lff.constants.Size;
 
 /**
+ * Shark class
  * @author Liu Feifei
  * @date 2020/8/24 10:53
  **/

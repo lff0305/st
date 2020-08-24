@@ -3,6 +3,7 @@ package org.lff.animals;
 import org.lff.ability.IFly;
 import org.lff.ability.ILearn;
 import org.lff.ability.ISay;
+import org.lff.animals.base.BaseBird;
 import org.lff.animals.base.LandAnimal;
 
 /**
@@ -10,7 +11,7 @@ import org.lff.animals.base.LandAnimal;
  * @author Liu Feifei
  * @date 2020/8/24 10:20
  **/
-public class Parrot extends LandAnimal implements ISay, ILearn, IFly {
+public class Parrot extends BaseBird implements ISay, ILearn, IFly {
 
     private ISay learnFrom;
 
