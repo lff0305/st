@@ -19,11 +19,19 @@ Catepillar  BaseBird     Cat          Dog        Frog     Butterfly             
 Interfaces:
 
 `IWalk`: The ability to walk
+
 `ISing`: The ability to sing
+
 `ISay`: The ability to say
+
 `ISwam`: The ability to swim
+
 `IEatFish`: The ability to eat other fishes
+
 `IFly`: The ability to fly
+
 `ILearn`: Learn other animal to say ( Parrot)
+
 `IMetamorphosis`: Grow & become other state
+
 `IMakeJoke`: Make jokes
