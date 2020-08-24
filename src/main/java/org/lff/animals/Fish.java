@@ -3,6 +3,7 @@ package org.lff.animals;
 
 import static org.lff.constants.Size.UNKNOWN;
 
+import org.lff.animals.base.SeaAnimal;
 import org.lff.constants.Size;
 
 /**

@@ -9,7 +9,7 @@ import org.lff.ability.IFly;
 import org.lff.ability.ISing;
 import org.lff.ability.ISwim;
 import org.lff.ability.IWalk;
-import org.lff.animals.Animal;
+import org.lff.animals.base.Animal;
 import org.lff.animals.Bird;
 import org.lff.animals.Butterfly;
 import org.lff.animals.Cat;

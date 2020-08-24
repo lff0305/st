@@ -1,4 +1,4 @@
-package org.lff.animals;
+package org.lff.animals.base;
 
 /**
  * Root Class for All animals

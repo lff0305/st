@@ -1,6 +1,7 @@
 package org.lff.animals;
 
 import org.lff.ability.IFly;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * @author Liu Feifei

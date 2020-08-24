@@ -1,6 +1,7 @@
 package org.lff.animals;
 
 import org.lff.ability.ISay;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * Rooster class

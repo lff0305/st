@@ -3,6 +3,7 @@ package org.lff.animals;
 import org.lff.ability.IFly;
 import org.lff.ability.ILearn;
 import org.lff.ability.ISay;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * A parrot, who can learn to say something from others

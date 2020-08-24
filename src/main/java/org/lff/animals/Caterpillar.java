@@ -2,6 +2,8 @@ package org.lff.animals;
 
 
 import org.lff.ability.IMetamorphosis;
+import org.lff.animals.base.Animal;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * A caterpillar

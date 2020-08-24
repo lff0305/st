@@ -3,6 +3,7 @@ package org.lff.animals;
 
 import org.lff.ability.ISay;
 import org.lff.ability.ISwim;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * @author Liu Feifei

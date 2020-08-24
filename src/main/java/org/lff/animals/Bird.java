@@ -2,7 +2,7 @@ package org.lff.animals;
 
 import org.lff.ability.IFly;
 import org.lff.ability.ISing;
-import org.lff.ability.IWalk;
+import org.lff.animals.base.LandAnimal;
 
 /**
  * A bird can sing, fly and walk

@@ -1,6 +1,6 @@
 package org.lff.ability;
 
-import org.lff.animals.Animal;
+import org.lff.animals.base.Animal;
 
 /**
  * To next stage
