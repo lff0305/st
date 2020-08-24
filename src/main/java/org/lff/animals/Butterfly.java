@@ -10,6 +10,11 @@ public class Butterfly extends LandAnimal implements IFly {
 
     private final Caterpillar from;
 
+    public Butterfly() {
+        super();
+        this.from = null;
+    }
+
     public Butterfly(Caterpillar caterpillar) {
         super();
         this.from = caterpillar;

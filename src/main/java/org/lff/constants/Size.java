@@ -5,5 +5,5 @@ package org.lff.constants;
  * @date 2020/8/24 10:51
  **/
 public enum Size {
-    BIG, SMALL
+    BIG, SMALL, UNKNOWN
 }
