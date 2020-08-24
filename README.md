@@ -35,3 +35,5 @@ Interfaces:
 `IMetamorphosis`: Grow & become other state
 
 `IMakeJoke`: Make jokes
+
+!classes and inerfaces(./docs/Animal.png)
