@@ -50,26 +50,26 @@ public class TestCounter {
     @Test
     public void countFly() {
         List<Animal> list = count(IFly.class);
-        System.out.println("Count fly = " + list);
+        System.out.println("Count fly = " + list.size());
         Assert.assertEquals(list.size(), 3);
     }
 
     @Test
     public void countWalk() {
         List<Animal> list = count(IWalk.class);
-        System.out.println("Count walk = " + list);
+        System.out.println("Count walk = " + list.size());
         Assert.assertEquals(list.size(), 9);
     }
     @Test
     public void countSing() {
         List<Animal> list = count(ISing.class);
-        System.out.println("Count sing = " + list);
+        System.out.println("Count sing = " + list.size());
         Assert.assertEquals(list.size(), 1);
     }
     @Test
     public void countSwim() {
         List<Animal> list = count(ISwim.class);
-        System.out.println("Count swim = " + list);
+        System.out.println("Count swim = " + list.size());
         Assert.assertEquals(list.size(), 6);
     }
 
