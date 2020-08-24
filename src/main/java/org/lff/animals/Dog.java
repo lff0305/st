@@ -10,8 +10,8 @@ import org.lff.ability.ISay;
 public class Dog extends LandAnimal implements ISay {
 
     public String say() {
-        System.out.println("A dog can say");
-        return "Bark";
+        System.out.println("A dog can say Woof, woof");
+        return "Woof, woof";
     }
 
     public void walk() {

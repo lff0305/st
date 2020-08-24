@@ -1,6 +1,7 @@
 package org.lff.animals;
 
 
+import org.lff.ability.IEatFish;
 import org.lff.constants.Size;
 
 /**

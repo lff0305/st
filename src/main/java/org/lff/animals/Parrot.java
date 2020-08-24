@@ -13,6 +13,14 @@ public class Parrot extends LandAnimal implements ISay, ILearn, IFly {
 
     private ISay learnFrom;
 
+    public Parrot(ISay neighbour) {
+        this.learnFrom = neighbour;
+    }
+
+    public Parrot() {
+        this(null);
+    }
+
     public void learn(ISay learnFrom) {
         this.learnFrom = learnFrom;
     }

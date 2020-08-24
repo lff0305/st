@@ -1,4 +1,6 @@
-package org.lff.animals;
+package org.lff.ability;
+
+import org.lff.animals.Fish;
 
 /**
  * Eats fish
