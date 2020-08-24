@@ -1,4 +1,5 @@
 Classes, and interfaces
+```
 
                                         Animal
                                           |
@@ -6,10 +7,11 @@ Classes, and interfaces
                           |                                                                            |
                       LandAnimal (`IWalk`)                                                          SeaAnimal (`ISwim`)
                           |                                                                            |
-     +---------+----------+------------+----------+---------+                        +-----------------+-------------------+                                       
-    |          |          |            |          |         |                        |                                     |
+     +---------+----------+------------+----------+---------+                         +-----------------+-------------------+                                       
+     |          |          |            |          |         |                        |                                     |
 Catepillar  BaseBird    Cat           Dog        Frog     Butterfly               Dolphin                                 Fish   
                |                                                                                                           |
    +-----------+---------------+---------------+                                                                  +--------+---------+
    |           |               |               |                                                                  |                  |         
- Parrot     Rooster            Chicken        Duck                                                              Shark           ClownFish 
+ Parrot     Rooster            Chicken        Duck                                                              Shark           ClownFish
+ ```
