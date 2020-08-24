@@ -13,7 +13,7 @@ Catepillar  BaseBird     Cat          Dog        Frog     Butterfly             
                |                                                                                                           |
    +-----------+---------------+---------------+-----------------+                                                +--------+---------+
    |           |               |               |                 |                                                |                  |         
- Parrot     Rooster            Chicken        Duck            Bird                                              Shark           ClownFish
+ Parrot     Rooster          Chicken          Duck              Bird                                            Shark           ClownFish
  ```
  
 Interfaces:
@@ -36,4 +36,4 @@ Interfaces:
 
 `IMakeJoke`: Make jokes
 
-!classes and inerfaces(./docs/Animal.png)
+!(https://github.com/lff0305/st/blob/master/docs/Animal.png)
