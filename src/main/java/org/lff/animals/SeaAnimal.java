@@ -1,10 +1,11 @@
 package org.lff.animals;
 
 
+import org.lff.ability.ISwim;
+
 /**
  * @author Liu Feifei
  * @date 2020/8/24 10:10
  **/
-public class SeaAnimal {
-
+public abstract class SeaAnimal implements ISwim {
 }
