@@ -53,7 +53,7 @@ Code example to get animal which can walk, fly, etc: (See testCounter.java):
             ).collect(Collectors.toList());
     }
 ```
-Code example for Localed `say()` : (LocaleManager will load local data from `resources/locales` dir
+Code example for Localed `say()` : ([LocaleManager](https://github.com/lff0305/st/blob/master/src/main/java/org/lff/locale/LocaleManager.java) will load local data from `resources/locales` dir
 ```
     public String say() {
         String msg = LocaleManager.getInstance().getString(this.getClass(), "A rooster says in English");
