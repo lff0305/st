@@ -53,4 +53,11 @@ Code example to get animal which can walk, fly, etc: (See testCounter.java):
             ).collect(Collectors.toList());
     }
 ```
-
+Code example for Localed `say()` :
+```
+    public String say() {
+        String msg = LocaleManager.getInstance().getString(this.getClass(), "A rooster says in English");
+        System.out.println(msg);
+        return msg;
+    }
+```
