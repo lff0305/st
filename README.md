@@ -3,17 +3,17 @@ Classes:
 
                                         Animal
                                           |
-                          +---------------+------------------------------------------------------------+
-                          |                                                                            |
-                      LandAnimal                                                                  SeaAnimal
-                          |                                                                            |
-     +---------+----------+------------+----------+---------+                         +----------------+-------------------+                                       
-     |         |          |            |          |         |                        |                                     |
-Catepillar  BaseBird     Cat          Dog        Frog     Butterfly               Dolphin                                 Fish   
-               |                                                                                                           |
-   +-----------+---------------+---------------+-----------------+                                                +--------+---------+
-   |           |               |               |                 |                                                |                  |         
- Parrot     Rooster            Chicken        Duck            Bird                                              Shark           ClownFish
+                          +---------------+-------------------------------------------------+
+                          |                                                                 |
+                      LandAnimal                                                        SeaAnimal
+                          |                                                                 |
+     +---------+----------+------------+----------+---------+              +----------------+-------------------+                                       
+     |         |          |            |          |         |              |                                    |
+Catepillar  BaseBird     Cat          Dog        Frog     Butterfly     Dolphin                               Fish   
+               |                                                                                                |
+   +-----------+---------------+---------------+-----------------+                                     +--------+---------+
+   |           |               |               |                 |                                     |                  |         
+ Parrot     Rooster          Chicken          Duck              Bird                                 Shark           ClownFish
  ```
  
 Interfaces:
@@ -36,4 +36,21 @@ Interfaces:
 
 `IMakeJoke`: Make jokes
 
-!classes and inerfaces(./docs/Animal.png)
+![](https://github.com/lff0305/st/blob/master/docs/Animal.png)
+
+
+Code example to get animal which can walk, fly, etc: (See testCounter.java):
+```
+    Animal[] animals = ....... /// the input
+    public void countSwim() {
+        List<Animal> list = count(ISwim.class);
+        System.out.println("Count swim = " + list.size());
+    }
+
+    private <T> List<Animal> count(Class<T> c) {
+        return Arrays.asList(animals).stream().filter(
+            c::isInstance
+            ).collect(Collectors.toList());
+    }
+```
+
