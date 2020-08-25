@@ -1,9 +1,8 @@
 package org.lff.animals;
 
-import javax.smartcardio.CommandAPDU;
 import org.lff.ability.ISay;
 import org.lff.animals.base.BaseBird;
-import org.lff.animals.base.LandAnimal;
+import org.lff.locale.LocaleManager;
 
 /**
  * Rooster class
@@ -13,7 +12,7 @@ import org.lff.animals.base.LandAnimal;
 public class Rooster extends BaseBird implements ISay {
 
     public String say() {
-        String msg = "Cock-a-doodle-doo";
+        String msg = LocaleManager.getInstance().getString(this.getClass(), "A rooster says in English");
         System.out.println(msg);
         return msg;
     }
