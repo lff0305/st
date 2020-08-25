@@ -65,5 +65,7 @@ Code example for Localed `say()` : ([LocaleManager](https://github.com/lff0305/s
 RestfulAPI:
 
 `Animal GET /v1/animals/[name]`: Get the animal whose name is [name]. For example, `GET /v1/animals/shark`
+
 `List<Animal> GET /v1/animals/ability/[ability]`: Get animals who can do some ability. For example, `GET /v1/animals/fly`
+
 `String GET /v1/animals/[name]/language`: Get what the animals say with the language. For example, `GET /v1/animals/rooster/German`
